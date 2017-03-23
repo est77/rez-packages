@@ -1,0 +1,8 @@
+
+# Ignore all.
+*
+
+# Add some exceptions.
+!package.py
+!.preserve
+!*/
