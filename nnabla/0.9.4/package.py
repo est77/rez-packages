@@ -1,14 +1,19 @@
 # -*- coding: utf-8 -*-
 
-name = "ocio"
+name = "nnabla"
 
-version = "1.0.9"
+version = "0.9.4"
 
-description = "OpenColorIO"
+description = "NNabla"
+
+requires = [
+    "protobuf-3.4.0",
+    "libarchive-3.3.2",
+    "hdf5-1.8.15"
+]
 
 tools = [
-    "ociobakelut",
-    "ociocheck"
+    "nbla"
 ]
 
 def commands():

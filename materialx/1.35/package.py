@@ -1,15 +1,10 @@
 # -*- coding: utf-8 -*-
 
-name = "pyimath"
+name = "materialx"
 
-version = "2.2.0"
+version = "1.35"
 
-description = "pyimath"
-
-requires = [
-    "openexr-2.2.0",
-    "boost-1.61.0"
-]
+description = "MaterialX"
 
 def commands():
     env.LD_LIBRARY_PATH.append("{root}/lib")

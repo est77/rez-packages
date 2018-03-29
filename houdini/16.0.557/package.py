@@ -2,9 +2,9 @@
 
 name = "houdini"
 
-version = "15.5.607"
+version = "16.0.557"
 
-description = "Houdini 15"
+description = "Houdini 16"
 
 tools = [
     "houdini"
@@ -31,8 +31,8 @@ def commands():
     env.HOUDINI_BUILD_VERSION.set(version[2])
     env.HOUDINI_VERSION.set("${HOUDINI_MAJOR_RELEASE}.${HOUDINI_MINOR_RELEASE}.${HOUDINI_BUILD_VERSION}")
 
-    env.HOUDINI_BUILD_KERNEL.set("2.6.32-431.20.5.el6.x86_64")
-    env.HOUDINI_BUILD_PLATFORM.set("Red Hat Enterprise Linux Workstation release 6.5 (Santiago)")
+    env.HOUDINI_BUILD_KERNEL.set("2.6.32-573.3.1.el6.x86_64")
+    env.HOUDINI_BUILD_PLATFORM.set("Red Hat Enterprise Linux Workstation release 6.7 (Santiago)")
     env.HOUDINI_BUILD_COMPILER.set("4.8.2")
     env.HOUDINI_BUILD_LIBC.set("glibc 2.12")
 
