@@ -6,10 +6,8 @@ version = "3.3.2"
 
 description = "LibArchive"
 
-requires = [
-]
-
-build_requires = [
+variants = [
+    ['gcc-4.8.3'],
 ]
 
 tools = [

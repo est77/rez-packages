@@ -6,6 +6,10 @@ version = "1.7.1"
 
 description = "Alembic"
 
+variants = [
+    ['gcc-4.8.3'],
+]
+
 requires = [
     "hdf5-1.8.15",
     "openexr-2.2"

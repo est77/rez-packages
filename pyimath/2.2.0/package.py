@@ -6,6 +6,10 @@ version = "2.2.0"
 
 description = "pyimath"
 
+variants = [
+    ['gcc-4.8.3'],
+]
+
 requires = [
     "openexr-2.2.0",
     "boost-1.61.0"

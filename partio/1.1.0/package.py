@@ -6,6 +6,10 @@ version = "1.1.0"
 
 description = "Partio"
 
+variants = [
+    ['gcc-4.8.3'],
+]
+
 requires = [
     "seexpr-2.9"
 ]

@@ -9,7 +9,7 @@ description = \
     A backport of the subprocess module from Python 3.2/3.3 for use on 2.x.
     """
 
-variants = [['platform-linux', 'arch-x86_64', 'os-Fedora-26', 'python-2.7']]
+variants = [['platform-linux', 'arch-x86_64', 'os-Fedora-28', 'python-2.7']]
 
 def commands():
     env.PYTHONPATH.append('{root}/python')

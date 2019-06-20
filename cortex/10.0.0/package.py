@@ -6,14 +6,19 @@ version = "10.0.0"
 
 description = "Cortex"
 
+variants = [
+    ['gcc-4.8.3'],
+]
+
 requires = [
     "boost-1.61.0",
     "openexr-2.2.0",
-    "oiio-1.7",
+    "oiio-1.8.9",
     "alembic-1.7.1",
     "glew-2.1.0",
-    "tbb-4.3",
-    "pyimath-2.2.0"
+    "tbb-2017.6",
+    "pyimath-2.2.0",
+    "blosc-1.7.0"
 ]
 
 def commands():

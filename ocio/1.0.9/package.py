@@ -6,6 +6,10 @@ version = "1.0.9"
 
 description = "OpenColorIO"
 
+variants = [
+    ['gcc-4.8.3'],
+]
+
 tools = [
     "ociobakelut",
     "ociocheck"

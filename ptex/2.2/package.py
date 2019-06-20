@@ -6,7 +6,8 @@ version = "2.2"
 
 description = "Ptex"
 
-requires = [
+variants = [
+    ['gcc-4.8.3'],
 ]
 
 tools = [

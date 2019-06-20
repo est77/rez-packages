@@ -6,6 +6,10 @@ version = "2018"
 
 description = "Maya"
 
+variants = [
+    ['gcc-4.8.3'],
+]
+
 requires = [
     "tiff-3"
 ]
