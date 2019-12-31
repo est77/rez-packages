@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 
-name = "pugixml"
+name = "lcms"
 
-version = "1.9"
+version = "2.9"
 
-description = "pugixml"
+description = "Little CMS"
 
 variants = [
     ['gcc-6.3.1'],

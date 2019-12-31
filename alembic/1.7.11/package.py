@@ -1,13 +1,17 @@
 # -*- coding: utf-8 -*-
 
-name = "pugixml"
+name = "alembic"
 
-version = "1.9"
+version = "1.7.11"
 
-description = "pugixml"
+description = "Alembic"
 
 variants = [
     ['gcc-6.3.1'],
+]
+
+requires = [
+    "openexr-2.3"
 ]
 
 def commands():

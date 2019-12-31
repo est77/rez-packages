@@ -7,7 +7,6 @@ version = "1.61.0"
 description = "boost"
 
 variants = [
-    ['gcc-4.8.3'],
     ['gcc-6.3.1'],
 ]
 

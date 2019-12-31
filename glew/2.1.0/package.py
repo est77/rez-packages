@@ -7,7 +7,6 @@ version = "2.1.0"
 description = "GLEW"
 
 variants = [
-    ['gcc-4.8.3'],
     ['gcc-6.3.1'],
 ]
 

@@ -1,15 +1,14 @@
 # -*- coding: utf-8 -*-
 
-name = "freetype"
+name = "usd"
 
-version = "2.7.1"
+version = "19.07"
 
-description = "Freetype"
-
-variants = [
-    ['gcc-6.3.1']
-]
+description = "USD"
 
 def commands():
     env.PATH.append("{root}/bin")
     env.LD_LIBRARY_PATH.append("{root}/lib")
+    env.PYTHONPATH.append("{root}/lib/python")
+
+

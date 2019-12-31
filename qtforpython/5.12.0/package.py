@@ -7,7 +7,7 @@ version = "5.12.0"
 description = "QtForPython"
 
 variants = [
-    ['python-3.6'],
+    ['python-3.6.5'],
 ]
 
 requires = [

@@ -12,7 +12,7 @@ variants = [
 
 requires = [
     "oiio-2.0.4",
-    "llvm-5.0.1"
+    "llvm-8.0.0"
 ]
 
 def commands():

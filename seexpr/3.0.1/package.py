@@ -1,15 +1,14 @@
 # -*- coding: utf-8 -*-
 
-name = "freetype"
+name = "seexpr"
 
-version = "2.7.1"
+version = "3.0.1"
 
-description = "Freetype"
+description = "SeExpr"
 
 variants = [
     ['gcc-6.3.1']
 ]
 
 def commands():
-    env.PATH.append("{root}/bin")
     env.LD_LIBRARY_PATH.append("{root}/lib")
