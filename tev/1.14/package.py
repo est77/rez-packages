@@ -2,7 +2,7 @@
 
 name = "tev"
 
-version = "1.12"
+version = "1.14"
 
 description = "TEV image viewer"
 

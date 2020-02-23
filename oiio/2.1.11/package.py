@@ -2,7 +2,7 @@
 
 name = "oiio"
 
-version = "2.0.4"
+version = "2.1.11"
 
 description = "OpenImageIO"
 
@@ -11,12 +11,12 @@ variants = [
 ]
 
 requires = [
-    "boost-1.61.0",
+    "boost-1.66.0",
     "openexr-2.3.0",
     "tiff-4.0.10",
     "png-1.6",
     "jpeg-8",
-    "ocio-1.1.0"
+    "ocio-1.1.1"
 ]
 
 tools = [
@@ -30,4 +30,4 @@ tools = [
 
 def commands():
     env.PATH.append("{root}/bin")
-    env.LD_LIBRARY_PATH.append("{root}/lib")
+    env.LD_LIBRARY_PATH.append("{root}/lib64")

@@ -2,16 +2,12 @@
 
 name = "appleseed.maya"
 
-version = "1.2.0"
+version = "1.3.0"
 
 description = "appleseed-maya"
 
 def commands():
-    if resolve.maya.version.major == 2019:
-        env.APPLESEED.set("/hdd/Devel/appleseedhq/appleseed/sandbox")
-    else:
-        env.APPLESEED.set("/hdd/Devel/appleseedhq/appleseed4/sandbox")
-
+    env.APPLESEED.set("/hdd/Devel/appleseedhq/appleseed/sandbox")
     env.LD_LIBRARY_PATH.append("$APPLESEED/lib/Ship/")
     env.PYTHONPATH.append("$APPLESEED/lib/Ship/python")
 

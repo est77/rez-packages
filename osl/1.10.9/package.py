@@ -2,7 +2,7 @@
 
 name = "osl"
 
-version = "1.10.3"
+version = "1.10.9"
 
 description = "OSL"
 
@@ -11,11 +11,11 @@ variants = [
 ]
 
 requires = [
-    "oiio-2.0.4",
+    "oiio-2.1.11",
     "llvm-8.0.0"
 ]
 
 def commands():
     env.PATH.append("{root}/bin")
-    env.LD_LIBRARY_PATH.append("{root}/lib")
+    env.LD_LIBRARY_PATH.append("{root}/lib64")
 
